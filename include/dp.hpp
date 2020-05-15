@@ -1,6 +1,4 @@
-#ifndef DP_INCLUDE_H
-#define DP_INCLUDE_H
+#pragma once
 
 long long longest_increasing_sub();
-#endif
 
