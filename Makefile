@@ -1,7 +1,8 @@
 CXX := g++
 CXXFLAGS := -Wall
 
-src = $(wildcard src/*.cpp)
+src := $(wildcard src/*.cpp) \
+	$(wildcard src/data_structures/*.cpp) 
 objects := $(src:%.cpp=%.o)
 
 all: build test
