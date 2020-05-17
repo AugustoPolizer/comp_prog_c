@@ -3,6 +3,8 @@
 #include <numeric>
 #include <vector>
 
+// Testando o vim fugitive
+
 namespace prog_comp {
 template <class T> class Binary_indexed_tree {
 private:
